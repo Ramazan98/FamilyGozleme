@@ -1,0 +1,14 @@
+<%= stylesheet_link_tag    'header', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'header', 'data-turbolinks-track' => true %>
+<header>
+  <nav>
+      <%= link_to "Family Gozleme", root_path, :style => "text-decoration: none; color:red;",  class: "title" %>
+         <ul>
+        <li><%= link_to "Home", root_path, :style=> 'text-decoration: none; color: red;' %></li>
+        <li><%=link_to "Menu", menu_path, :style=> 'text-decoration: none; color: red;' %></li>
+        <li><%= link_to "Gallery", gallery_path, :style=> 'text-decoration: none; color: red' %></li>
+        <li><%= link_to "About", about_path, :style=> 'text-decoration: none; color: red' %></li>
+        <li><%= link_to "Contact Us", contact_path, :style=> 'text-decoration: none; color: red' %></li>
+      </ul>
+  </nav>
+</header>
