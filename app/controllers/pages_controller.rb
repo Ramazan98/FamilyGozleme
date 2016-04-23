@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def home
+  def index
   end
 
   def gallery
@@ -14,7 +14,5 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def home
-  end
-  
+
 end

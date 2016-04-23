@@ -2,7 +2,7 @@ Rails.application.routes.draw do
  
 
 get "gallery" => "pages#gallery"
-get "home" => "pages#home"
+get "index" => "pages#index"
 get "about" => "pages#about"
 get "menu" => "pages#menu"
 get "contact" => "pages#contact"
@@ -10,7 +10,7 @@ get "contact" => "pages#contact"
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'pages#home'
+  root 'pages#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
