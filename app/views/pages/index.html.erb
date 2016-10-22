@@ -1,7 +1,46 @@
 
 <%= render 'layouts/header_home' %>
+<%= stylesheet_link_tag    'index', media: 'all', 'data-turbolinks-track' => true %>
 
-  <%= image_tag("img1.jpg", :class => "item-active img-responsive") %>
-  <%= image_tag("img2.jpg", :class => "item img-responsive") %>
-  <%= image_tag("img3.jpg", :class => "item img-responsive") %>
-  <%= image_tag("img4.jpg", :class => "item img-responsive") %>
+<title>Family Gozleme - Home</title>
+<div class="section-1">
+<div class="index-image">
+	<%= image_tag("image22.jpg", :alt => "Gozleme image") %>
+	<%= image_tag("image1.jpg", :alt => "Gozleme image") %>
+
+	</div>
+</div>
+
+
+<div class="home-content">
+
+<h3> Welcome to Family Gozleme </h3>
+
+	<div class="main-content">
+		<div class="section-2">
+		
+
+		<p><span>Gozleme is a much loved Turkish street food and a special part of the delicious Turkish cuisine. Come along as we invite your tase buds to a mouthwatering journey. Bringing you one of Turkeys most popular street food known as 'Gozleme'. This popular snack is cooked quickly on a hot griddle and can be filled with various fillings of your choice. </span></p>
+	</div>
+	<div class="section-3">
+		<h2> We Attend: </h2>
+		<p> Markets  //  Festivals  //  Functions  //  Shows  //  Other Events.. </p>
+		<%= link_to 'Enquire Now', contact_path, class: 'btn btn-danger' %>
+		
+	</div>
+	</div>
+
+
+
+</div>
+<div class="image-row">
+
+		<%= image_tag("image1.jpg", :alt => "Gozleme image") %>
+		<%= image_tag("img.jpg", :alt => "Gozleme image") %>
+		<%= image_tag("img1.jpg", :alt => "Gozleme image") %>
+		<%= image_tag("img2.jpg", :alt => "Gozleme image") %>
+		</div>
+
+
+
+<%= render 'layouts/footer' %>

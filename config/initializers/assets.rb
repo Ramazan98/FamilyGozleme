@@ -6,6 +6,12 @@ Rails.application.config.assets.precompile += %w( home.css )
 Rails.application.config.assets.precompile += %w( home.js )
 Rails.application.config.assets.precompile += %w( header.css )
 Rails.application.config.assets.precompile += %w( header.js )
+Rails.application.config.assets.precompile += %w( index.css )
+Rails.application.config.assets.precompile += %w( footer.css )
+Rails.application.config.assets.precompile += %w( menu.css )
+Rails.application.config.assets.precompile += %w( about.css )
+Rails.application.config.assets.precompile += %w( gallery.css )
+Rails.application.config.assets.precompile += %w( contact.css )
 
 
 # Add additional assets to the asset load path

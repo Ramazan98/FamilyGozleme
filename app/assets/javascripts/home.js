@@ -1,11 +1,17 @@
+
 $(function(){
+  var height = jQuery(window).height();
+  var vh = height * 0.37;
+
   $(window).scroll(function(){
-      if ($(window).scrollTop() >= 300) {
+      if ($(window).scrollTop() >= vh ) {
+
         $('nav').addClass('fixed-header');
         $('nav h2').text('Family Gozleme');
         $('nav h2').animate({opacity: '1'}, 1000);
         $('nav ul li .color').css('color', 'red');
         $('nav ul').addClass('fixed-nav');
+        
       }
 
       else {
